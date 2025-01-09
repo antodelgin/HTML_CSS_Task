@@ -1,0 +1,86 @@
+body,html{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e8f0e8;
+    color: #333;
+    height: 100%;           
+}
+header{
+    background-color: #24292f;
+    color: #fff;
+    padding-top: 25px;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 1.5px;
+    height: 10%;
+    box-sizing: border-box;
+}
+.logo{
+    padding-left: 50px;
+    float: left;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    padding: 100px;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 100px;
+    height: 90%;
+    box-sizing: border-box;
+}
+.sidebar{   
+    width: 350px;
+    height: 100%;
+    background-color: #333;
+    border-radius: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 12%;
+    height: 100%;
+}
+.search-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+.search-bar{
+    letter-spacing: 1.5px;
+    font-weight:500;
+    background-color: #333;
+    color: grey;
+    padding: 8px;
+    width: 80%;
+    height: 50px;
+    border-radius: 12px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+}
+.cards{
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+
+}
+.card{
+    background-color: #333;
+    height: 150px;
+    padding: 30px #e8f0e8;
+    border-radius: 15px;
+    flex: 1;
+}
+.wide-area{
+    background-color: #333;
+    padding: 15px;
+    border-radius: 15px;
+    height: 200px;
+}
